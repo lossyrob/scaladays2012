@@ -1,0 +1,5 @@
+sbt doesn't work with 2.10 again, so:
+
+export SCALA_HOME=/path/to/snapshot/of/scala/2.10
+./build.sh
+./run.sh scala.collection.MapLike // or whatever, any class you like
